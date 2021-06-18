@@ -27,11 +27,17 @@ public class OperadoresBitaBit {
 		System.out.println(new StringBuilder().append("Resultado do operador &: ").append(x | y));
 		System.out.println("61 em Binario: 00" + Integer.toBinaryString(61));
 
-		// << 
+		// << deslocar para a esquerda
 		// 00111100 = 60
 		// 11110000 = 240
 		System.out.println(new StringBuilder().append("Resultado do operador <<: ").append(x << 2));
 		System.out.println("240 em Binario: " + Integer.toBinaryString(240));
+
+		// >> deslocar para a direita
+		// 00111100 = 60
+		// 00001111 = 15
+		System.out.println(new StringBuilder().append("Resultado do operador <<: ").append(x >> 2));
+		System.out.println("15 em Binario: 0000" + Integer.toBinaryString(15));
 
 	}
 
