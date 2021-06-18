@@ -23,11 +23,16 @@ public class OperadoresBitaBit {
 		// | or
 		// 00111100 = 60
 		// 00001101 = 13
-		// 00111101 = 
+		// 00111101 =
 		System.out.println(new StringBuilder().append("Resultado do operador &: ").append(x | y));
 		System.out.println("61 em Binario: 00" + Integer.toBinaryString(61));
-		
-		
+
+		// << 
+		// 00111100 = 60
+		// 11110000 = 240
+		System.out.println(new StringBuilder().append("Resultado do operador <<: ").append(x << 2));
+		System.out.println("240 em Binario: " + Integer.toBinaryString(240));
+
 	}
 
 }
