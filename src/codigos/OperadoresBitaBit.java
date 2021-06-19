@@ -39,6 +39,16 @@ public class OperadoresBitaBit {
 		System.out.println(new StringBuilder().append("Resultado do operador <<: ").append(x >> 2));
 		System.out.println("15 em Binario: 0000" + Integer.toBinaryString(15));
 
+		System.out.println();
+		
+		// 00111100 = 60
+		// 00000000 = 00
+		System.out.println(x >>> 10);
+
+		// Com multiplos de 8 acima de 16, retorna o proprio 60
+		// 00111100 = 60
+		// 00000111 = 07
+		System.out.println(x >>> 32);
 	}
 
 }
